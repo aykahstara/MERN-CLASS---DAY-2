@@ -1,0 +1,46 @@
+/* For id */
+#blue{
+    color: skyblue;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* div p{
+    color: pink !important;
+} */
+    
+/* for class */
+.pink{ 
+    color: pink;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media{max-width: 600px;}
+.relative{
+    width: 100%;
+    height: 100%;
+}
+.relative{
+border:2px solid black;
+width:400px;
+height:400px;
+position: relative;
+background-color: rgb(235, 175, 178);
+color: #000;
+font-size: 20px;
+
+}
+
+.absolute{
+border: 2px solid whitesmoke;
+color: rgb(163, 41, 82);
+width:200px;
+height:200px;
+position: absolute;
+/* top: 50px; */
+left: 80px; 
+bottom:80 px;
+right:200px;
+box-shadow: 0px 10px 10px 10px rgba(18, 1, 1, 0.42);
+}
